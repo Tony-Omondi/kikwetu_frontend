@@ -22,7 +22,7 @@ function App() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const apiUrl = 'http://127.0.0.1:8000/api/';
+    const apiUrl = 'https://kikwetu-backend-gw66.onrender.com/api/';
     setLoading(true);
     setError(null);
     Promise.all([
